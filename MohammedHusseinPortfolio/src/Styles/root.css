@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 :root {
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
@@ -88,7 +89,8 @@
     background-color: var(--color-primary);
 }
 .project,
-.skill {
+.skill,
+.Header {
     background-color: var(--color-primary-variant)
 }
 .btn {
@@ -107,17 +109,20 @@
     color: var(--color-placeholders);
 
 }
+.logoCode{
+    color: var( --color-accent);
+}
+.Header{
+    margin-top: -6rem;
+}
 
 
 
 @media (max-width:720px) {
 
-    /* text */
-    :root {
-
-    }
-
-    /*  */
+.name{
+    display: none;
+}
 }
 
 

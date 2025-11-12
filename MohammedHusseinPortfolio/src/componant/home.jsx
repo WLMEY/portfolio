@@ -1,19 +1,19 @@
 import Header from "./Header";
 import myimage from '../assets/mohammed hussein.jpeg'
 const Home = () => {
-    return (<div className="Main p-30 flex flex-col">
+    return (<div className="Main sm:p-30 p-5 flex flex-col gap-40">
 
         <Header />
 
-        <div className="Hero flex flex-row justify-between">
-            <div className="image w-1/2 rounded-b-full">
+        <div className="Hero flex sm:flex-row flex-col  sm:items-start items-center sm:justify-between justify-center sm:gap-0 gap-4">
+            <div className="image sm:w-1/2 rounded-b-full  flex items-center sm:justify-start justify-center">
                 <img src={myimage} className="max-w-1/2 rounded-full" />
             </div>
 
-            <div className="Aboutme w-1/2">
-                <h1 className="mainText text-7xl">Mohammed Hussein Kamel</h1>
-                <h1 className="mainText text-7xl">Front-End Web Developer</h1>
-                <p className="subText" >Creating modern and responsive web sexperiences.
+            <div className="Aboutme sm:w-1/2 flex flex-col sm:items-start items-center text-center sm:gap-0 gap-4">
+                <h1 className="block sm:hidden  mainText text-5xl">Mohammed Hussein Kamel</h1>
+                <h1 className=" hidden sm:block job mainText text-7xl">Front-End Web Developer</h1>
+                <p className="subText " >Creating modern and responsive web sexperiences.
                     I bild beautiful, functional, and user-friendly websites. and application
 
                 </p>
@@ -28,7 +28,7 @@ const Home = () => {
             </div>
         </div>
 
-
+<div>
         <h1 className="text-5xl">My Projects</h1>
         <div className="Myprojects flex flex-row justify-between items-center  gap-6 "  >
 
@@ -72,7 +72,10 @@ const Home = () => {
 
 
         </div>
+</div>
 
+
+<div>
         <h1 className="text-5xl">My Skills</h1>
         <div className="MySkills flex flex-row justify-between items-center  gap-6  flex-wrap w-full pt-10">
 
@@ -105,6 +108,7 @@ const Home = () => {
                 <h1> Axios</h1>
             </div>
 
+        </div>
         </div>
 
         <div className="GetInTouch">
