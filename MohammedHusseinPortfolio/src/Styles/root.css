@@ -20,8 +20,9 @@
     /* لون بارز (Primary) */
     --color-primary-variant: #17202F;
     /* تدرج مساعد */
-    --color-secondary: #06B6D4;
+    --color-secondary: #2b6cee6e;
     /* لون ثانوي */
+    --color-border:#354055;
     --color-accent: #2B6CEE;
     /* لمسة بارزة/accent */
 
@@ -34,8 +35,8 @@
     /* سطوح البطاقات */
 
     --color-text: #E6EEF8;
-    --color-secondary:#a9bbd3;
-    --color-placeholders: #94A3B8;
+    --color-text-secondary: #a9bbd3;
+    --color-text-placeholders: #94A3B8;
     /* نص فرعي / placeholders */
 
     --color-success: #10B981;
@@ -88,57 +89,106 @@
 .Main {
     background-color: var(--color-primary);
 }
+
 .project,
 .skill,
 .Header {
     background-color: var(--color-primary-variant)
 }
+
+
 .btn {
     background-color: var(--color-bg-btn);
 }
+
 .btn:hover {
     background-color: var(--color-bg-btn-hover);
 }
+
 .mainText {
     color: var(--color-text);
 }
+
 .subText {
-    color: var(--color-secondary);
+    color: var(--color-text-secondary);
 }
-.placeholdersText{
-    color: var(--color-placeholders);
+
+.placeholdersText {
+    color: var(--color-text-placeholders);
 
 }
-.logoCode{
-    color: var( --color-accent);
+
+.logoCode {
+    color: var(--color-accent);
 }
-.Header{
+
+.Header {
     margin-top: -6rem;
 }
+
+.btn,
+.btn_wiewmywork {
+    background-color: var(--color-accent);
+
+}
+
+.icon:hover,
+.icons>a>i:hover {
+    color: var(--color-accent);
+    cursor: pointer;
+
+}
+
+.btn_1 {
+    background-color: var(--color-primary-variant);
+
+}
+
+
 
 
 
 @media (max-width:720px) {
 
-.name{
-    display: none;
+    .name {
+        display: none;
+    }
+    .project_skills {
+    background-color:var(--color-secondary);
 }
+
+.skillGrops>div {
+    border: 1px solid var(--color-border);
+    background-color: var(--color-primary-variant);
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    /* min-width: 50%; */
+    
+}
+.skillGrops>div>i ,.skillGrops>div>h4 {
+    color: var(--color-accent);
+    
+}
+
+
 }
 
 
 @media (prefers-color-scheme: light) {
     :root {
-    --color-primary: #F6F6F8;
-    --color-primary-variant: #FFFFFF;
-    --color-secondary: #06B6D4;
-    --color-accent: #2B2BEE; /* لمسة بارزة/accent */
+        --color-primary: #F6F6F8;
+        --color-primary-variant: #FFFFFF;
+        --color-secondary: #06B6D4;
+        --color-accent: #2B2BEE;
+        /* لمسة بارزة/accent */
 
-    --color-bg-btn: #2B2BEE;
-    --color-bg-btn-hover: #4c84f3;
+        --color-bg-btn: #2B2BEE;
+        --color-bg-btn-hover: #4c84f3;
 
-    --color-text: #2b2f38;
-    --color-secondary:#525b6b;
-    --color-placeholders:#606976;
+        --color-text: #2b2f38;
+        --color-text-secondary: #525b6b;
+        --color-text-placeholders: #606976;
 
     }
 
