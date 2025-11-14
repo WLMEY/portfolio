@@ -292,8 +292,64 @@ const Home = () => {
         </div>
 
 
-        <div className="GetInTouch">
+        <div className="GetInTouch flex flex-col justify-center items-start gap-5" >
 
+            <h2 className="text-4xl">Get in Touch</h2>
+            <p className="placeholdersText ">i'm open to discussing new projects and opportunities. Let's build something together.</p>
+            
+            <div className="connection flex flex-col w-full justify-center items-center gap-3">
+                <div className="info_continer flex flex-row justify-between items-center w-full p-5 rounded-2xl text-lg">
+                   {/* project_skills w-15 sm:w-fit pt-0.5 sm:pt-0 pb-0.5  sm:pb-0 rounded-2xl  text-sm text-center */}
+                    <i className="icons  text-2xl fa-regular fa-envelope"></i>
+                    
+                    <p className=" w-full pl-3 ">dev.mohammedhussein@gmail.com</p>
+                    <i className="icon_normal fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+                    <div className="info_continer flex flex-row justify-between items-center w-full p-5 rounded-2xl text-lg">
+                    <i class="icons text-2xl fa-solid fa-phone"></i>
+                    
+                    <p className=" pl-3 w-full">+20 1275564118  (EGP)</p>
+                    <i className="icon_normal  fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+
+            </div>
+            <div className="platforms flex justify-center items-center flex-col w-full gap-5">
+                <h2 className="placeholdersText  m-auto ">Find me on other platforms</h2>
+                <div className="flex justify-center items-center flex-row w-full gap-5">
+                    <a href="" className=""><i className="icons text-3xl fa-brands fa-facebook-messenger"></i></a>
+                    <a href="" className=""><i className="icons text-3xl fa-brands fa-linkedin"></i></a>
+                    <a href="" className=""><i className="icons text-3xl fa-brands fa-whatsapp"></i></a>
+
+                    
+                    
+                    
+
+                </div>
+            </div>
+            
+            <div className="message w-full p-5 rounded-2xl flex flex-col justify-center items-start gap-5">
+                <div className="w-full flex flex-col justify-center items-start ">
+                    <h2 className="text-3xl">Send a Message</h2>
+                <p className="placeholdersText">Or send me a message directly</p>
+                </div>
+
+                <div className="input w-full flex flex-col justify-center items-start gap-2">
+                    <label htmlFor="">Full Name</label>
+                    <input type="text" name="" id="" placeholder="mohammed hussein" className="p-2 rounded-lg w-full" />
+                </div>
+                
+                <div className="input w-full flex flex-col justify-center items-start gap-2">
+                    <label htmlFor="">Email Address</label>
+                    <input type="Email" name="" id="" placeholder="dev.mohammedhussein@gmail.com" className="p-2 rounded-lg w-full"/>
+                </div>
+
+                <div className="input w-full flex flex-col justify-center items-start gap-2">
+                    <label htmlFor="">Your Message</label>
+                    {/* <textarea type="text" name="" id="" /> */}
+                    <textarea name="" cols='50' id="" resize="none"  placeholder="Let's talk about..." className="p-2 rounded-lg w-full" ></textarea>
+                </div>
+
+            </div>
         </div>
 
     </div>);

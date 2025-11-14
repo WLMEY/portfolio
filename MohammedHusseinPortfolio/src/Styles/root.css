@@ -92,7 +92,10 @@
 
 .project,
 .skill,
-.Header {
+.Header,
+.info_continer,
+.icons,
+.message{
     background-color: var(--color-primary-variant)
 }
 
@@ -113,7 +116,7 @@
     color: var(--color-text-secondary);
 }
 
-.placeholdersText {
+.placeholdersText ,.icon_normal{
     color: var(--color-text-placeholders);
 
 }
@@ -126,6 +129,17 @@
     margin-top: -6rem;
 }
 
+input,textarea{
+    border: 1px solid var(--color-text-placeholders);
+
+}
+textarea{
+    resize: none;
+    height:70px;
+    
+
+}
+
 .btn,
 .btn_wiewmywork {
     background-color: var(--color-accent);
@@ -133,11 +147,13 @@
 }
 
 .icon:hover,
-.icons>a>i:hover {
+.icons>a>i:hover,
+.icons {
     color: var(--color-accent);
     cursor: pointer;
 
 }
+
 
 .btn_1 {
     background-color: var(--color-primary-variant);
