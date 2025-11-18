@@ -121,7 +121,7 @@
 
 }
 
-.logoCode,.icon {
+.logoCode,.icon_i {
     color: var(--color-accent);
 }
 
@@ -181,10 +181,12 @@ display: none;
 
 .group{
     display: flex;
-    width: fit-content;
+    width: max-content;
     flex-direction: row;
-    animation: span 15s infinite ease;
+    animation: span 40s infinite linear;
+    gap: 1rem;
     
+   
 }
 
 .skill{
@@ -197,9 +199,15 @@ display: none;
     gap: 3em;
 }
 .Skills{
+}
+.MySkills{
+    /* border: 4px solid red; */
+    -webkit-mask:linear-gradient(90deg, transparent, white 20% , white 80%, transparent);
 
 }
+
 .skill >div>p{
+    display: none;
 color: var(--color-text-placeholders);
 }
 .skill >div>h1{
@@ -208,11 +216,8 @@ color: var(--color-text-placeholders);
 }
 
 @keyframes span {
-    from {
-        translate: 0%;
-    }
     to {
-        translate: -100%;
+        transform:translate(calc(-50% - 0.5rem)) ;
     }
 }
 
@@ -225,7 +230,17 @@ color: var(--color-text-placeholders);
 
 /* Mobile veiw */
 @media (max-width:720px) {
-
+    .myskills_phone p{
+        color: var(--color-text-placeholders);
+    }
+    .myskills_phone >div > div>div {
+        /* background-color: red; */
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        width: 50%;
+    }
     .name {
         display: none;
     }

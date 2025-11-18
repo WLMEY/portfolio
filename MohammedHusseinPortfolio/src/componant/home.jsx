@@ -214,6 +214,125 @@ const Home = () => {
                         
                         </div>
 
+<div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        <h4 className=" text-3xl">JS</h4>
+                        <div>
+                            <h1> JavaScript (ES6+)</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        <i class="text-3xl fa-brands fa-html5"></i>
+                        <div>
+                            <h1>HTML5</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        <i class="text-3xl fa-brands fa-css3-alt"></i>
+                        <div>
+                            <h1> CSS3</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        {/* <h4 className=" text-3xl">JS</h4> */}
+                        <i className=" text-3xl fa-brands fa-react"></i>
+                        <div>
+                            <h1> React</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        {/* <i class=" fa-brands fa-html5"></i> */}
+                        <i class="text-3xl fa-solid fa-sitemap"></i>
+                        <div>
+                            <h1>Redux</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        {/* <i class="text-3xl fa-brands fa-css3-alt"></i> */}
+                        <h4 className=" text-3xl">API</h4>
+
+                        <div>
+                            <h1> Axios</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+
+
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        <i class="text-3xl fa-brands fa-css3-alt"></i>
+                        <div>
+                            <h1> TailwindCSS</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        {/* <i class="text-3xl fa-brands fa-css3-alt"></i> */}
+                        <i class="text-3xl fa-solid fa-gears"></i>
+                        <div>
+                            <h1>Framer Motion</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        <h4 className=" text-3xl">Get</h4>
+                        <div>
+                            <h1> Git</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        <h4 className=" text-3xl">Vit</h4>
+                        <div>
+                            <h1> vit</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        {/* <i class="text-3xl fa-brands fa-html5"></i> */}
+                        <i class=" text-3xl fa-solid fa-address-card"></i>
+                        <div>
+                            <h1>Postman</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        {/* <i class=" fa-brands fa-css3-alt"></i> */}
+                        <i class=" text-3xl fa-brands fa-figma"></i>
+                        <div>
+                            <h1> fagma</h1>
+                            <p>good</p>
+
+                        </div>
+
+                    </div>
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        {/* <i class="text-3xl fa-brands fa-css3-alt"></i> */}
+                        <h4 className=" text-3xl">Vercel</h4>
+                        <div>
+                            <h1> Vercel</h1>
+                            <p>good</p>
+
+                        </div>
+                        
+                        </div>
 
                 </div>
 
@@ -378,7 +497,7 @@ const Home = () => {
             </div>
 
 
-            <h2 className="btn p-3 rounded-lg w-full text-center mt-10 text-3xl"><i class="fa-solid fa-download"></i> Download CV</h2>
+            <h2 className="btn p-3 rounded-lg w-full sm:w-fit sm:ml-auto text-center mt-10 text-3xl"><i class="fa-solid fa-download"></i> Download CV</h2>
         </div>
 
         {/* Get InTouch */}
