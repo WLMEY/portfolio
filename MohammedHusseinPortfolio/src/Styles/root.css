@@ -121,7 +121,7 @@
 
 }
 
-.logoCode {
+.logoCode,.icon {
     color: var(--color-accent);
 }
 
@@ -133,16 +133,12 @@ input,textarea{
     border: 1px solid var(--color-text-placeholders);
 
 }
-textarea{
-    resize: none;
-    height:70px;
-    
 
-}
 
 .btn,
 .btn_wiewmywork {
     background-color: var(--color-accent);
+    cursor:pointer;
 
 }
 
@@ -161,9 +157,73 @@ textarea{
 }
 
 
+/* pc view  */
+@media (min-width:720px) {
+    .GetInTouch{
+    background-color: var(--color-primary-variant);
+    max-width: 70%;
+    margin: auto;
+    
+}
+textarea{
+    resize: none;
+    height:120px;
+    
+
+}
+
+.MySkills{
+    overflow: hidden;
+}
+.MySkills::-webkit-scrollbar{
+display: none;
+}
+
+.group{
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    animation: span 15s infinite ease;
+    
+}
+
+.skill{
+    
+    display: flex ;
+    flex-direction: row;
+    /* flex:0 0 5em; */ 
+    padding:0 2vb;
+    margin-right: 2em;
+    gap: 3em;
+}
+.Skills{
+
+}
+.skill >div>p{
+color: var(--color-text-placeholders);
+}
+.skill >div>h1{
+    
+    font-size:x-large;
+}
+
+@keyframes span {
+    from {
+        translate: 0%;
+    }
+    to {
+        translate: -100%;
+    }
+}
 
 
 
+
+}
+
+
+
+/* Mobile veiw */
 @media (max-width:720px) {
 
     .name {
@@ -187,6 +247,12 @@ textarea{
     
 }
 
+textarea{
+    resize: none;
+    height:70px;
+    
+
+}
 
 }
 

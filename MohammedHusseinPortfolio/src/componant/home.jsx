@@ -32,7 +32,7 @@ const Home = () => {
             </div>
         </div>
 
-        <div>
+        <div id="Project">
             <h1 className="text-5xl mb-10">My Projects</h1>
             <div className="Myprojects flex sm:flex-row flex-col justify-between items-center  gap-6 "  >
 
@@ -89,38 +89,134 @@ const Home = () => {
         </div>
 
 
-        <div>
+        <div id="Skills " className="Skills flex flex-col gap-10">
             <h1 className="text-5xl">My Skills</h1>
-            <div className="MySkills hidden sm:flex flex-row justify-between items-center  gap-6  flex-wrap w-full pt-10">
+            <div className="MySkills  hidden sm:flex flex-row  ">
 
-                <div className="skill flex flex-col justify-between items-center p-3 w-26 rounded-2xl gap-3"     >
-                    <img src={myimage} className="w-full rounded-2xl " alt="" />
-                    <h1> React</h1>
-                </div><div className="skill flex flex-col justify-between items-center p-3 w-26 rounded-2xl gap-3 " >
-                    <img src={myimage} className="w-full rounded-2xl " alt="" />
-                    <h1> Git</h1>
-                </div><div className="skill flex flex-col justify-between items-center p-3 w-26 rounded-2xl gap-3" >
-                    <img src={myimage} className="w-full rounded-2xl " alt="" />
-                    <h1> JavaScript</h1>
-                </div><div className="skill flex flex-col justify-between items-center p-3 w-26 rounded-2xl gap-3" >
-                    <img src={myimage} className="w-full rounded-2xl " alt="" />
-                    <h1> TailwindCSS</h1>
-                </div><div className="skill flex flex-col justify-between items-center p-3 w-26 rounded-2xl gap-3" >
-                    <img src={myimage} className="w-full rounded-2xl " alt="" />
-                    <h1> F Motion </h1>
-                </div><div className="skill flex flex-col justify-between items-center p-3 w-26 rounded-2xl gap-3" >
-                    <img src={myimage} className="w-full rounded-2xl " alt="" />
-                    <h1> Redux</h1>
-                </div><div className="skill flex flex-col justify-between items-center p-3 w-26 rounded-2xl gap-3" >
-                    <img src={myimage} className="w-full rounded-2xl " alt="" />
-                    <h1> HTML5</h1>
-                </div><div className="skill flex flex-col justify-between items-center p-3 w-26 rounded-2xl gap-3" >
-                    <img src={myimage} className="w-full rounded-2xl " alt="" />
-                    <h1> CSS3</h1>
-                </div><div className="skill flex flex-col justify-between items-center p-3 w-26 rounded-2xl gap-3" >
-                    <img src={myimage} className="w-full rounded-2xl " alt="" />
-                    <h1> Axios</h1>
+                <div className="group">
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        <h4 className=" text-3xl">JS</h4>
+                        <div>
+                            <h1> JavaScript (ES6+)</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        <i class="text-3xl fa-brands fa-html5"></i>
+                        <div>
+                            <h1>HTML5</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        <i class="text-3xl fa-brands fa-css3-alt"></i>
+                        <div>
+                            <h1> CSS3</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        {/* <h4 className=" text-3xl">JS</h4> */}
+                        <i className=" text-3xl fa-brands fa-react"></i>
+                        <div>
+                            <h1> React</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        {/* <i class=" fa-brands fa-html5"></i> */}
+                        <i class="text-3xl fa-solid fa-sitemap"></i>
+                        <div>
+                            <h1>Redux</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        {/* <i class="text-3xl fa-brands fa-css3-alt"></i> */}
+                        <h4 className=" text-3xl">API</h4>
+
+                        <div>
+                            <h1> Axios</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+
+
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        <i class="text-3xl fa-brands fa-css3-alt"></i>
+                        <div>
+                            <h1> TailwindCSS</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        {/* <i class="text-3xl fa-brands fa-css3-alt"></i> */}
+                        <i class="text-3xl fa-solid fa-gears"></i>
+                        <div>
+                            <h1>Framer Motion</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        <h4 className=" text-3xl">Get</h4>
+                        <div>
+                            <h1> Git</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        <h4 className=" text-3xl">Vit</h4>
+                        <div>
+                            <h1> vit</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        {/* <i class="text-3xl fa-brands fa-html5"></i> */}
+                        <i class=" text-3xl fa-solid fa-address-card"></i>
+                        <div>
+                            <h1>Postman</h1>
+                            <p>good</p>
+
+                        </div>
+                    </div>
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        {/* <i class=" fa-brands fa-css3-alt"></i> */}
+                        <i class=" text-3xl fa-brands fa-figma"></i>
+                        <div>
+                            <h1> fagma</h1>
+                            <p>good</p>
+
+                        </div>
+
+                    </div>
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                        {/* <i class="text-3xl fa-brands fa-css3-alt"></i> */}
+                        <h4 className=" text-3xl">Vercel</h4>
+                        <div>
+                            <h1> Vercel</h1>
+                            <p>good</p>
+
+                        </div>
+                        
+                        </div>
+
+
                 </div>
+
 
             </div>
 
@@ -128,6 +224,7 @@ const Home = () => {
 
             <div className="myskills_phone flex sm:hidden flex-col gap-5  justify-center items-start">
                 <h2 className="text-3xl mt-5">Core Languages</h2>
+
                 <div className="skillGrops grid grid-cols-2 w-full gap-3  p-2">
                     <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
                         <h4 className=" text-3xl">JS</h4>
@@ -173,7 +270,7 @@ const Home = () => {
                     </div>
                     <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
                         {/* <i class=" fa-brands fa-html5"></i> */}
-                        <i class= "text-3xl fa-solid fa-sitemap"></i>
+                        <i class="text-3xl fa-solid fa-sitemap"></i>
                         <div>
                             <h1>Redux</h1>
                             <p>good</p>
@@ -235,7 +332,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                                        <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
                         <h4 className=" text-3xl">Vit</h4>
                         <div>
                             <h1> vit</h1>
@@ -262,7 +359,7 @@ const Home = () => {
                         </div>
 
                     </div>
-                                        <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
+                    <div className="skill flex flex-col justify-between items-center p-3   rounded-2xl gap-3" >
                         {/* <i class="text-3xl fa-brands fa-css3-alt"></i> */}
                         <h4 className=" text-3xl">Vercel</h4>
                         <div>
@@ -278,76 +375,72 @@ const Home = () => {
 
 
 
-
-
-
-
-
-
-
             </div>
 
 
-    <h2 className="btn p-3 rounded-lg w-full text-center mt-10 text-3xl"><i class="fa-solid fa-download"></i> Download CV</h2>
+            <h2 className="btn p-3 rounded-lg w-full text-center mt-10 text-3xl"><i class="fa-solid fa-download"></i> Download CV</h2>
         </div>
 
-
-        <div className="GetInTouch flex flex-col justify-center items-start gap-5" >
+        {/* Get InTouch */}
+        <div id="Contact" className="GetInTouch flex flex-col justify-center p-0 sm:p-20 sm:pl-60 sm:pr-60 sm:items-center items-start gap-5 sm:gap-10 " >
 
             <h2 className="text-4xl">Get in Touch</h2>
             <p className="placeholdersText ">i'm open to discussing new projects and opportunities. Let's build something together.</p>
-            
-            <div className="connection flex flex-col w-full justify-center items-center gap-3">
+
+            <div className="connection flex sm:hidden flex-col w-full justify-center items-center gap-3">
                 <div className="info_continer flex flex-row justify-between items-center w-full p-5 rounded-2xl text-lg">
-                   {/* project_skills w-15 sm:w-fit pt-0.5 sm:pt-0 pb-0.5  sm:pb-0 rounded-2xl  text-sm text-center */}
+                    {/* project_skills w-15 sm:w-fit pt-0.5 sm:pt-0 pb-0.5  sm:pb-0 rounded-2xl  text-sm text-center */}
                     <i className="icons  text-2xl fa-regular fa-envelope"></i>
-                    
+
                     <p className=" w-full pl-3 ">dev.mohammedhussein@gmail.com</p>
                     <i className="icon_normal fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
-                    <div className="info_continer flex flex-row justify-between items-center w-full p-5 rounded-2xl text-lg">
+                <div className="info_continer flex flex-row justify-between items-center w-full p-5 rounded-2xl text-lg">
                     <i class="icons text-2xl fa-solid fa-phone"></i>
-                    
+
                     <p className=" pl-3 w-full">+20 1275564118  (EGP)</p>
                     <i className="icon_normal  fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
 
             </div>
-            <div className="platforms flex justify-center items-center flex-col w-full gap-5">
+            <div className="platforms flex sm:hidden justify-center items-center flex-col w-full gap-5">
                 <h2 className="placeholdersText  m-auto ">Find me on other platforms</h2>
                 <div className="flex justify-center items-center flex-row w-full gap-5">
-                    <a href="" className=""><i className="icons text-3xl fa-brands fa-facebook-messenger"></i></a>
-                    <a href="" className=""><i className="icons text-3xl fa-brands fa-linkedin"></i></a>
-                    <a href="" className=""><i className="icons text-3xl fa-brands fa-whatsapp"></i></a>
+                    <a href="" className=""><i className="icon text-3xl fa-brands fa-facebook-messenger"></i></a>
+                    <a href="" className=""><i className="icon text-3xl fa-brands fa-linkedin"></i></a>
+                    <a href="" className=""><i className="icon text-3xl fa-brands fa-whatsapp"></i></a>
 
-                    
-                    
-                    
+
+
+
 
                 </div>
             </div>
-            
-            <div className="message w-full p-5 rounded-2xl flex flex-col justify-center items-start gap-5">
-                <div className="w-full flex flex-col justify-center items-start ">
+            {/* Message */}
+            <div className="message w-full p-5 sm:p-0 rounded-2xl flex flex-col justify-center items-start sm:items-center gap-5">
+                <div className="w-full flex sm:hidden flex-col justify-center items-start ">
                     <h2 className="text-3xl">Send a Message</h2>
-                <p className="placeholdersText">Or send me a message directly</p>
+                    <p className="placeholdersText">Or send me a message directly</p>
                 </div>
 
-                <div className="input w-full flex flex-col justify-center items-start gap-2">
-                    <label htmlFor="">Full Name</label>
-                    <input type="text" name="" id="" placeholder="mohammed hussein" className="p-2 rounded-lg w-full" />
-                </div>
-                
-                <div className="input w-full flex flex-col justify-center items-start gap-2">
-                    <label htmlFor="">Email Address</label>
-                    <input type="Email" name="" id="" placeholder="dev.mohammedhussein@gmail.com" className="p-2 rounded-lg w-full"/>
+                <div className="flex flex-row justify-between items-center w-full gap-10">
+                    <div className="input w-full  flex flex-col justify-center items-start gap-2">
+                        <label htmlFor="">Full Name</label>
+                        <input type="text" name="" id="" placeholder="mohammed hussein" className="p-2 rounded-lg w-full " />
+                    </div>
+
+                    <div className="input w-full   flex flex-col justify-center items-start gap-2">
+                        <label htmlFor="">Email Address</label>
+                        <input type="Email" name="" id="" placeholder="dev.mohammedhussein@gmail.com" className="p-2 rounded-lg w-full " />
+                    </div>
                 </div>
 
                 <div className="input w-full flex flex-col justify-center items-start gap-2">
                     <label htmlFor="">Your Message</label>
                     {/* <textarea type="text" name="" id="" /> */}
-                    <textarea name="" cols='50' id="" resize="none"  placeholder="Let's talk about..." className="p-2 rounded-lg w-full" ></textarea>
+                    <textarea name="" cols='50' id="" resize="none" placeholder="Let's talk about..." className="p-2 rounded-lg w-full " ></textarea>
                 </div>
+                <button className="btn p-3 rounded-2xl ">Send Message</button>
 
             </div>
         </div>
